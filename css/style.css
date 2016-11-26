@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+
+body {
+	background: #55ACEE;
+	text-align: center;
+	font-family: Abel;
+	color: #FFFFFF;
+}
+
+main {
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+}
+
+.trigger, .tweet {
+	border:2px #FFFFFF solid;
+	width: 200px;
+	cursor: pointer;
+	padding: 10px;
+	user-select: none;
+}
+
+
+.trigger:hover, .tweet:hover {
+	box-shadow: 0 8px 6px -6px #FFFFFF;
+}
+
+.tweet {
+	margin-left: 25px;
+}
+
+.buttons a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
